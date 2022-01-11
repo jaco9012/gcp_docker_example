@@ -1,5 +1,5 @@
 steps:
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['build', '-t', 'gcr.io/useful-lattice-337908', '.']
+  args: ['build', '-t', 'gcr.io/useful-lattice-337908/testing', '.']
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['push', 'gcr.io/useful-lattice-337908']
+  args: ['push', 'gcr.io/useful-lattice-337908/testing']
